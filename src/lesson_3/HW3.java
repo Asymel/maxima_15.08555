@@ -156,19 +156,19 @@ public class HW3 {
 //                "жёлтый" - если горит жёлтый цвет,
 //                "красный" - если горит красный цвет.
 
-        Scanner scanner = new Scanner(System.in);
-
-        double t = scanner.nextInt();
-        double min = t % 5;
-        if (min >= 0 && min < 3) {
-            System.out.println(" Зеленый");
-        } else if (min >= 3 && min < 4 ) {
-            System.out.println(" Желтый ");
-        } else  if (min >= 4 && min <5 ) {
-            System.out.println(" Красный ");  // НЕ ПОНЯЛ ПОЧЕМУ НЕ ВВОДЯТЬСЯ ДРОБНЫЕ ЧИСЛА
-
-
-        }
+//        Scanner scanner = new Scanner(System.in);
+//
+//        double t = scanner.nextInt();
+//        double min = t % 5;
+//        if (min >= 0 && min < 3) {
+//            System.out.println(" Зеленый");
+//        } else if (min >= 3 && min < 4 ) {
+//            System.out.println(" Желтый ");
+//        } else  if (min >= 4 && min <5 ) {
+//            System.out.println(" Красный ");  // НЕ ПОНЯЛ ПОЧЕМУ НЕ ВВОДЯТЬСЯ ДРОБНЫЕ ЧИСЛА
+//
+//
+//        }
     }
 }
 

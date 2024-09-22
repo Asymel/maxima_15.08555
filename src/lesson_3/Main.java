@@ -123,14 +123,14 @@ public class Main {
 //            System.out.println("Мы не знаем такого дня недели");
 //        }
 
-//        Scanner scanner = new Scanner(System.in); // Ввод данных через консоль
-//        int a = scanner.nextInt();
-//
-//        if (a <= 100 && a >= 50) {
-//            System.out.println(" Число " + a + " содержиться в интервале ");
-//        } else {
-//            System.out.println(" Число " + a + " не содержиться в интервале ");
-//        }
+        Scanner scanner = new Scanner(System.in); // Ввод данных через консоль
+        int a = scanner.nextInt();
+
+        if (a <= 100 && a >= 50) {
+            System.out.println(" Число " + a + " содержиться в интервале ");
+        } else {
+            System.out.println(" Число " + a + " не содержиться в интервале ");
+        }
 
 
         //       int dayOfWeek = 15;
