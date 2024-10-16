@@ -12,13 +12,13 @@ public class Main {
 
         /* *
             Арифметические операторы
-          + Складывает значемния по обе стороны от оператора
+          + Складывает значения по обе стороны от оператора
           - Вычетает правый операнд из левого операнда
           * Умножает значение по обе стороны от оператора
           / Оператор деления делит левый операнд на правый операнд
-         %  Делит левый операнд на правый и возвращмет остаток
-         ++ Инкрумент - уыеличивает значение операнда на 1 x++ постфиуксная, ++х префмксная
-         -- декремент - уменьшаетхначение операнда на 1 х-- постфиксная, --ч префиксная
+         %  Делит левый операнд на правый и возвращает остаток
+         ++ Инкрумент - увеличивает значение операнда на 1 x++ постфиксная, ++х префиксная
+         -- декремент - уменьшает значение операнда на 1 х-- постфиксная, --ч префиксная
                   * */
 
         //       // int ost = 8 % 3; // 3 + 3 + 2
@@ -74,14 +74,14 @@ public class Main {
          Если условие имеет значение true, то оператор логического «НЕ» будет делать false
          */
 
-//        boolean isWillGoWalking;
-//
-//        int temperature = 15;
-//        boolean isWeekEnd = true;
-//
-//        isWillGoWalking = isWeekEnd || temperature >= 25;
-//
-//        System.out.println(isWillGoWalking);
+        boolean isWillGoWalking;
+
+        int temperature = 15;
+        boolean isWeekEnd = true;
+
+        isWillGoWalking = isWeekEnd || temperature >= 25;
+
+        System.out.println(isWillGoWalking);
 
 //        boolean c = 250 > 1000;
 //
@@ -123,14 +123,14 @@ public class Main {
 //            System.out.println("Мы не знаем такого дня недели");
 //        }
 
-        Scanner scanner = new Scanner(System.in); // Ввод данных через консоль
-        int a = scanner.nextInt();
-
-        if (a <= 100 && a >= 50) {
-            System.out.println(" Число " + a + " содержиться в интервале ");
-        } else {
-            System.out.println(" Число " + a + " не содержиться в интервале ");
-        }
+//        Scanner scanner = new Scanner(System.in); // Ввод данных через консоль
+//        int a = scanner.nextInt();
+//
+//        if (a <= 100 && a >= 50) {
+//            System.out.println(" Число " + a + " содержиться в интервале ");
+//        } else {
+//            System.out.println(" Число " + a + " не содержиться в интервале ");
+//        }
 
 
         //       int dayOfWeek = 15;
@@ -153,22 +153,22 @@ public class Main {
 //            System.out.println("Мы не знаем такого дня недели");
 //        }
 
-        int dayOfWeek = 2;
-
-        switch (dayOfWeek) {
-            case (1):
-                System.out.println("Сегодня пн");
-                break;
-            case (2):
-                System.out.println("Сегодня вт");
-                break;
-            default:
-                System.out.println("Пока я знаю только дни пн и вт");
-                break; // Оператор сразу переходит к нужному варианту, не проверяя все варианты(если мы знаем точно!)
+//        int dayOfWeek = 2;
+//
+//        switch (dayOfWeek) {
+//            case (1):
+//                System.out.println("Сегодня пн");
+//                break;
+//            case (2):
+//                System.out.println("Сегодня вт");
+//                break;
+//            default:
+//                System.out.println("Пока я знаю только дни пн и вт");
+//                break; // Оператор сразу переходит к нужному варианту, не проверяя все варианты(если мы знаем точно!)
 
         }
 
     }
-}
+
 
 

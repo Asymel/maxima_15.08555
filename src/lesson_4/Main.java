@@ -34,11 +34,11 @@ public class Main {
 //
 //        }
 
-        for (int i = 0; i <=20 ; i++) {
-            if( i % 2 == 0 && i !=0){
-                System.out.println(i);
-
-            }
+//        for (int i = 0; i <= 20; i++) {
+//            if (i % 2 == 0 && i != 0) {
+//                System.out.println(i);
+//
+//            }
 //
 //
 //        }
@@ -79,16 +79,20 @@ public class Main {
 //            System.out.println("Hello!");
 //        }
 
-//        int counter = 10;
-//        while (counter > 0) {
-//            System.out.println(counter);
-//            counter--; // counter = counter - 1
-//
-//            if (counter == 5) {
-//                break;
+            int counter = 10;
+            while (counter > 0) {
+                System.out.println(counter);
+                counter--; // counter = counter - 1
+
+                if (counter == 5) {
+                    break;
+                }
+            }
         }
     }
-}
+
+
+
 
 
 
