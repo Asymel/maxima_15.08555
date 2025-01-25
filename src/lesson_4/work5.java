@@ -1,6 +1,7 @@
 package lesson_4;
 
 public class work5 {
+
     public static void main(String[] args) {
         //        Вывести на экран таблицу умножения 10х10 используя цикл while.
 //        Числа разделить пробелом.

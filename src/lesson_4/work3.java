@@ -3,6 +3,7 @@ package lesson_4;
 import java.util.Scanner;
 
 public class work3 {
+
     public static void main(String[] args) {
         //  Ввести с клавиатуры три числа, вывести на экран среднее из них.
 //                То есть не самое большое и не самое маленькое.

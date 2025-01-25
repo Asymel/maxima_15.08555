@@ -3,6 +3,7 @@ package lesson_4;
 import java.util.Scanner;
 
 public class work1 {
+
     public static void main(String[] args) {
 
 //

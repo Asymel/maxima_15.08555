@@ -2,6 +2,7 @@ package lesson_4;
 import java.util.Scanner;
 
 public class work6 {
+
     public static void main(String[] args) {
         // Ввести с клавиатуры строку name.
 //                Ввести с клавиатуры дату рождения (три числа): y, m, d.
