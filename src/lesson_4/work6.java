@@ -15,11 +15,15 @@ public class work6 {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Введите свое имя:");
         String name = scanner.next();
-        System.out.print("Введите дату рождения: ");
-        String dateOfBirth = scanner.next();
+        System.out.print("Введите день рождения: ");
+        String dayOfBirth = scanner.next();
+        System.out.print("Введите месяц рождения: ");
+        String monthOfBirth = scanner.next();
+        System.out.print("Введите год рождения: ");
+        String yearOfBirth = scanner.next();
         {
             System.out.println("Меня зовут: " + name);
-            System.out.println("Я родился: " + dateOfBirth);
+            System.out.println("Я родился: " + dayOfBirth + "." + monthOfBirth + "." + yearOfBirth );
         }
     }
 }
