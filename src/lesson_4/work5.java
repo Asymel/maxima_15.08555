@@ -9,11 +9,12 @@ public class work5 {
         int a = 1;
         int b = 1;
         while (a <= 10) {
-            System.out.print(a + " ");
+
             while (b <= 9) {
 
                 b++;
-                System.out.print(a * b + " ");
+                System.out.print( a + " * " + b + " = ");
+                System.out.println(a * b + " ");
 
             }
             a++;
